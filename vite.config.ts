@@ -4,5 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), tsconfigPaths()],
+  base: '/website-photographer-frontend/',  // nama repo kamu
+  plugins: [react(), tailwindcss(), tsconfigPaths() ],
 });
